@@ -1,0 +1,75 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Subtle dropped shadow of the wheel -->
+    <path
+        android:fillColor="#15000000"
+        android:pathData="M56,58 M 56,58 m -33,0 a 33,33 0,1 1,66 0 a 33,33 0,1 1,-66 0" />
+
+    <!-- Outer rim casing of the wheel (Slate Silver) -->
+    <path
+        android:strokeColor="#ECEFF1"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 M 54,54 m -32,0 a 32,32 0,1 1,64 0 a 32,32 0,1 1,-64 0" />
+
+    <!-- Outer rim outline trace (Modern Indigo) -->
+    <path
+        android:strokeColor="#7C4DFF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 M 54,54 m -32,0 a 32,32 0,1 1,64 0 a 32,32 0,1 1,-64 0" />
+
+    <!-- Spoke Line Slices (Vertical cross) -->
+    <path
+        android:strokeColor="#1DE9B6"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,22 L54,86 M22,54 L86,54" />
+
+    <!-- Spoke Line Slices (Diagonal cross) -->
+    <path
+        android:strokeColor="#FFD700"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M31.4,31.4 L76.6,76.6 M31.4,76.6 L76.6,31.4" />
+
+    <!-- Inner rim circular groove -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M54,54 M 54,54 m -16,0 a 16,16 0,1 1,32 0 a 16,16 0,1 1,-32 0" />
+
+    <!-- Outer Peg Dots around the wheel rim -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M54,16 M 54,16 m -2.5,0 a 2.5,2.5 0,1 1,5 0 a 2.5,2.5 0,1 1,-5 0" />
+    <path
+        android:fillColor="#E040FB"
+        android:pathData="M54,92 M 54,92 m -2.5,0 a 2.5,2.5 0,1 1,5 0 a 2.5,2.5 0,1 1,-5 0" />
+    <path
+        android:fillColor="#448AFF"
+        android:pathData="M16,54 M 16,54 m -2.5,0 a 2.5,2.5 0,1 1,5 0 a 2.5,2.5 0,1 1,-5 0" />
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M92,54 M 92,54 m -2.5,0 a 2.5,2.5 0,1 1,5 0 a 2.5,2.5 0,1 1,-5 0" />
+
+    <!-- Center metallic pin hub -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M54,54 M 54,54 m -8,0 a 8,8 0,1 1,16 0 a 8,8 0,1 1,-16 0" />
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M54,54 M 54,54 m -5,0 a 5,5 0,1 1,10 0 a 5,5 0,1 1,-5 0" />
+
+    <!-- Pointer Needle indicator overlay at top -->
+    <path
+        android:fillColor="#FF2A6D"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M54,16 L47.5,6 L60.5,6 Z" />
+
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "Picker Wheel",
+  "description": "An offline decision maker and picker wheel app. Create custom lists, customize colors, and randomize selections instantly with interactive physics-based spinning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
